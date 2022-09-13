@@ -1,0 +1,40 @@
+.sign-in-form {
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.sign-in-form input {
+    margin: 8px 0
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* label::after {
+    color: red;
+    content: "*";
+} */
+
+/* input:required {
+    background-color: rgba(156, 226, 43, 0.514);
+} */
+
+/* label {
+    position: relative;
+}
+
+label>input:required::before {
+    color: red;
+    content: "*";
+    position: absolute;
+    right: 0;
+} */
