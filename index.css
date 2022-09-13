@@ -1,10 +1,9 @@
 .sign-in-form {
-    width: 150px;
-    border: 1px solid lightgray;
-    border-radius: 4px;
-    background-color: aliceblue;
+    width: 60vw;
+    background-color: steelblue;
+    color: white;
     margin: 0 auto;
-    padding: 10px;
+    font-size: 16px;
 }
 
 .sign-in-form input {
@@ -15,26 +14,36 @@
 .flex-column {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
-
-
-/* label::after {
-    color: red;
-    content: "*";
-} */
-
-/* input:required {
-    background-color: rgba(156, 226, 43, 0.514);
-} */
-
-/* label {
-    position: relative;
+input[type="checkbox"] {
+    margin-right: 10px;
 }
 
-label>input:required::before {
-    color: red;
-    content: "*";
-    position: absolute;
-    right: 0;
-} */
+label>p {
+    font-size: 0.7em;
+}
+
+.write-data {
+    display: flex;
+    flex-flow: row wrap;
+}
+button {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.blue {
+    font-size: 16px;
+    font-weight: 600; 
+    background-color: #28d2d0;
+    height: 64px;
+}
+.red {
+    font-size: 14px;
+    font-weight: 400; 
+    border-radius: 4px;
+    line-height: 33px;
+    background-color: #dd4b39;  
+}

@@ -11,7 +11,31 @@
 </head>
 
 <body>
-  
+ <form class="sign-in-form flex-column" action="" method="get">
+    <label class="flex-column">We always keep your name and email addres private.
+        <div class="Write-data">
+        <input type="text" name="first-name"  placeholder="First name" required />
+        <input type="text" name="last-name" placeholder="Last name" required />
+        <input type="text" name="display-name" placeholder="Display name" required />
+        <input type="email" name="email" placeholder="Email address" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <input type="password" name="password-confirm" placeholder="Password Confirmation" required />
+    </div>
+    </label>
+    <label>
+        <input type="radio" name="join as" value="Join As a Buyer" /> Join As a Buyer
+        <p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
+    </label>
+    <label>
+        <input type="radio" name="join as"  value="Join As a Creative or Marketplace Seller" /> Join As a Creative or Marketplace Seller
+        <p>I plan to submit name ideas, Logo designs or sell names in Domain Marketplsce</p>
+    </label>
+    <input type="checkbox" name="allow" /> Allow Squadhelp to send marketing/promotional offers from time to time
+    <button class="blue">Create account</button>
+    <label>By clicking this button, you agree to our Terms of service
+        <button class="red">Sign up with Google</button>
+    </label>
+ </form> 
 </body>
 
 </html>
