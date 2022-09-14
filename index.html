@@ -17,7 +17,7 @@
             <h4>We always keep your name and email addres private.</h4>
         </div>
         <form class="signup-form" action="" method="get">
-            <div>
+            <div class="fields">
                 <input class="field" type="text" name="first-name" placeholder="First name" required />
                 <input class="field" type="text" name="last-name" placeholder="Last name" required />
                 <input class="field" type="text" name="display-name" placeholder="Display name" required />
@@ -26,21 +26,23 @@
                 <input class="field" type="password" name="password-confirm" placeholder="Password Confirmation"
                     required />
             </div>
-            <label>
+            <div class="join-as">
                 <input type="radio" name="join as" value="Join As a Buyer" /> Join As a Buyer
                 <p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
-            </label>
-            <label>
+            </div>
+            <div class="join-as">
                 <input type="radio" name="join as" value="Join As a Creative or Marketplace Seller" /> Join As a
                 Creative or Marketplace Seller
                 <p>I plan to submit name ideas, Logo designs or sell names in Domain Marketplsce</p>
-            </label>
-            <input type="checkbox" name="allow" /> Allow Squadhelp to send marketing/promotional offers from time to
-            time
+            </div>
+            <div class="check">
+                <input type="checkbox" name="allow" /> <span class="small-text">Allow Squadhelp to send
+                    marketing/promotional offers from time to
+                    time</span>
+            </div>
             <button class="blue">Create account</button>
-            <label>By clicking this button, you agree to our Terms of service
-                <button class="red">Sign up with Google</button>
-            </label>
+            <h5>By clicking this button, you agree to our Terms of service</h5>
+            <button class="red">Sign up with Google</button>
         </form>
     </div>
 </body>
