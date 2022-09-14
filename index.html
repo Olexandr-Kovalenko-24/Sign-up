@@ -11,93 +11,38 @@
 </head>
 
 <body>
- <form class="sign-in-form flex-column" action="" method="get">
-    <label class="flex-column">We always keep your name and email addres private.
-        <div class="Write-data">
-        <input type="text" name="first-name"  placeholder="First name" required />
-        <input type="text" name="last-name" placeholder="Last name" required />
-        <input type="text" name="display-name" placeholder="Display name" required />
-        <input type="email" name="email" placeholder="Email address" required />
-        <input type="password" name="password" placeholder="Password" required />
-        <input type="password" name="password-confirm" placeholder="Password Confirmation" required />
+    <div class="signup-container">
+        <div class="signup-info">
+            <h2>CREATE AN ACCOUNT</h2>
+            <h4>We always keep your name and email addres private.</h4>
+        </div>
+        <form class="signup-form" action="" method="get">
+            <div>
+                <input class="field" type="text" name="first-name" placeholder="First name" required />
+                <input class="field" type="text" name="last-name" placeholder="Last name" required />
+                <input class="field" type="text" name="display-name" placeholder="Display name" required />
+                <input class="field" type="email" name="email" placeholder="Email address" required />
+                <input class="field" type="password" name="password" placeholder="Password" required />
+                <input class="field" type="password" name="password-confirm" placeholder="Password Confirmation"
+                    required />
+            </div>
+            <label>
+                <input type="radio" name="join as" value="Join As a Buyer" /> Join As a Buyer
+                <p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
+            </label>
+            <label>
+                <input type="radio" name="join as" value="Join As a Creative or Marketplace Seller" /> Join As a
+                Creative or Marketplace Seller
+                <p>I plan to submit name ideas, Logo designs or sell names in Domain Marketplsce</p>
+            </label>
+            <input type="checkbox" name="allow" /> Allow Squadhelp to send marketing/promotional offers from time to
+            time
+            <button class="blue">Create account</button>
+            <label>By clicking this button, you agree to our Terms of service
+                <button class="red">Sign up with Google</button>
+            </label>
+        </form>
     </div>
-    </label>
-    <label>
-        <input type="radio" name="join as" value="Join As a Buyer" /> Join As a Buyer
-        <p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
-    </label>
-    <label>
-        <input type="radio" name="join as"  value="Join As a Creative or Marketplace Seller" /> Join As a Creative or Marketplace Seller
-        <p>I plan to submit name ideas, Logo designs or sell names in Domain Marketplsce</p>
-    </label>
-    <input type="checkbox" name="allow" /> Allow Squadhelp to send marketing/promotional offers from time to time
-    <button class="blue">Create account</button>
-    <label>By clicking this button, you agree to our Terms of service
-        <button class="red">Sign up with Google</button>
-    </label>
- </form> 
 </body>
 
 </html>
-
-
-
-
-
-<!-- <form class="sign-in-form flex-column" action="" method="get">
-    <label class="flex-column"> First name
-        <input type="text" name="first-name" required />
-    </label>
-    <label class="flex-column"> Last name
-        <input type="text" name="last-name" required />
-    </label>
-    <label for="email">Email or username</label>
-    <input 
-        id="email" 
-        type="text" 
-        placeholder="example@gmail.com" 
-        name="email"
-        pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" 
-        autocomplete="email" 
-        required />
-    <label class="flex-column">Password
-        <input type="password" name="pass" required />
-    </label>
-    Gender
-    <label>
-        <input type="radio" name="gender" value="male" /> Male
-    </label>
-    <label>
-        <input type="radio" name="gender"  value="female" /> Female
-    </label>
-    <label>
-        <input type="radio" name="gender" value="non-binary" /> Non-binary
-    </label>
-    <label>
-        <input type="checkbox" name="adult" required /> Are you adult?
-    </label>
-    <label>How old are you?
-        <input type="range" min="0" max="100" required /> 
-        <input type="date">
-    </label>
-    <label class="flex-column">Where are you from?
-        <select name="city">
-            <optgroup label="Zp obl">Zp obl
-                <option value="Zp">Zp</option>
-                <option value="Berdyansk">Berdyansk</option>
-            </optgroup>
-            <option value="Dnipro">Dnipro</option>
-            <option value="Dnipro">Kyiv</option>
-            <input type="text" list="writecity">
-            <datalist id="writecity">
-                <option value="Donetsk">Donetsk</option>
-                <option value="Lviv">Lviv</option>
-            </datalist>
-        </select>
-    </label>
-    <label class="flex-column">Some info
-    <textarea rows="3"></textarea>
-    </label>
-    <input type="hidden" name="hiddeninput" value="supersecretvalue" />
-    <button>Sign Up</button>
-</form> -->
